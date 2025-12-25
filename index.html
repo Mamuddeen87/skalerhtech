@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skalerhtech Solutions | Custom Innovation, Real Impact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --brand-dark: #0a2540;
+            --brand-teal: #00d4ff;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .bg-brand-dark { background-color: var(--brand-dark); }
+        .text-brand-teal { color: var(--brand-teal); }
+        .border-brand-teal { border-color: var(--brand-teal); }
+        .gradient-mesh {
+            background: radial-gradient(at 0% 0%, rgba(0, 212, 255, 0.15) 0px, transparent 50%),
+                        radial-gradient(at 100% 100%, rgba(10, 37, 64, 0.1) 0px, transparent 50%);
+        }
+        .hero-glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-brand-dark/95 backdrop-blur-md text-white py-4 shadow-xl">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="https://i.ibb.co/LXPfTC6d/12-10-removebg-preview-1.png" alt="Logo" class="h-10">
+                <span class="font-bold text-xl tracking-tight hidden md:block">SKALERHTECH</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+                <a href="#about" class="hover:text-brand-teal transition">About</a>
+                <a href="#mission" class="hover:text-brand-teal transition">Mission</a>
+                <a href="#services" class="hover:text-brand-teal transition">Services</a>
+                <button class="bg-brand-teal text-brand-dark px-5 py-2 rounded-full font-bold hover:brightness-110 transition">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 bg-brand-dark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-0 -left-20 w-72 h-72 bg-brand-teal rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-0 -right-20 w-72 h-72 bg-blue-600 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
+            <img src="https://i.ibb.co/LXPfTC6d/12-10-removebg-preview-1.png" alt="Logo" class="h-32 mb-8 animate-pulse">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Transforming Complexity into <br><span class="text-brand-teal">Scalable Success</span>
+            </h1>
+            <p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-10">
+                Bridging the gap between advanced technology and practical business needs with custom innovation.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="#services" class="bg-brand-teal text-brand-dark px-8 py-4 rounded-lg font-bold text-lg hover:scale-105 transition transform">Our Solutions</a>
+                <a href="#contact" class="border border-white/30 hero-glass px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 gradient-mesh">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-brand-dark text-3xl font-bold mb-6">About Skalerhtech Solutions</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        We are a tech-driven company dedicated to delivering customized, client-focused solutions. At Skalerhtech, we don’t just provide technology; we craft solutions that scale with your goals, ensuring your business is always ahead in a fast-evolving digital world.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="p-4 border-l-4 border-brand-teal bg-white shadow-sm">
+                            <h4 class="font-bold text-brand-dark">Customized</h4>
+                            <p class="text-sm text-gray-500">Tailored to your needs</p>
+                        </div>
+                        <div class="p-4 border-l-4 border-brand-teal bg-white shadow-sm">
+                            <h4 class="font-bold text-brand-dark">Scalable</h4>
+                            <p class="text-sm text-gray-500">Grows with your goals</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-brand-dark p-10 rounded-3xl shadow-2xl relative">
+                    <h3 class="text-brand-teal text-2xl font-bold mb-4">Our Vision</h3>
+                    <p class="text-gray-300 italic text-lg leading-relaxed">
+                        "To be a leading force in modern technology solutions, empowering clients globally with tailored tools and strategies that drive growth, efficiency, and sustainable success."
+                    </p>
+                    <div class="mt-8 flex items-center gap-4">
+                        <div class="h-px flex-1 bg-white/20"></div>
+                        <i class="fas fa-rocket text-brand-teal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="py-20 bg-brand-teal">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-brand-dark text-2xl font-black uppercase tracking-widest mb-4">Our Mission</h2>
+            <p class="text-brand-dark text-2xl md:text-4xl font-light max-w-4xl mx-auto leading-snug">
+                "To provide businesses with <strong>innovative technology solutions</strong> that streamline operations and transform challenges into <strong>scalable opportunities</strong>."
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl font-bold text-brand-dark mb-4">Our Expertise</h2>
+            <p class="text-gray-500">Specialized solutions for the modern digital era.</p>
+        </div>
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+            <div class="p-8 rounded-2xl border border-gray-100 hover:shadow-2xl transition group hover:-translate-y-2">
+                <div class="w-14 h-14 bg-brand-dark text-brand-teal flex items-center justify-center rounded-lg mb-6 group-hover:bg-brand-teal group-hover:text-brand-dark transition">
+                    <i class="fas fa-cogs text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">System Automation</h3>
+                <p class="text-gray-600">Simplifying workflows and saving time by automating your most complex repetitive tasks.</p>
+            </div>
+            <div class="p-8 rounded-2xl border border-gray-100 hover:shadow-2xl transition group hover:-translate-y-2">
+                <div class="w-14 h-14 bg-brand-dark text-brand-teal flex items-center justify-center rounded-lg mb-6 group-hover:bg-brand-teal group-hover:text-brand-dark transition">
+                    <i class="fas fa-code text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Custom Innovation</h3>
+                <p class="text-gray-600">Creating tailored software and digital tools designed specifically for your unique business logic.</p>
+            </div>
+            <div class="p-8 rounded-2xl border border-gray-100 hover:shadow-2xl transition group hover:-translate-y-2">
+                <div class="w-14 h-14 bg-brand-dark text-brand-teal flex items-center justify-center rounded-lg mb-6 group-hover:bg-brand-teal group-hover:text-brand-dark transition">
+                    <i class="fas fa-chart-line text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Growth Strategy</h3>
+                <p class="text-gray-500 italic text-sm">Real Impact</p>
+                <p class="text-gray-600">Strategic tech consulting to ensure your infrastructure is ready to scale globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark text-white py-12 border-t border-white/10">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <img src="https://i.ibb.co/LXPfTC6d/12-10-removebg-preview-1.png" alt="Logo" class="h-12 mb-4 mx-auto md:mx-0">
+                <p class="text-gray-400 max-w-xs text-sm">Custom Innovation, Real Impact. Empowering businesses globally through technology.</p>
+            </div>
+            <div class="flex gap-6">
+                <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-teal hover:text-brand-dark transition"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-teal hover:text-brand-dark transition"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-teal hover:text-brand-dark transition"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-12 pt-8 border-t border-white/5 text-center text-gray-500 text-xs">
+            © 2024 Skalerhtech Solutions. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
